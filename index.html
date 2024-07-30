@@ -189,21 +189,25 @@
                display: flex;
                justify-content: space-between;
           }
-          .sidebar {
-               width: 3%;
-               padding: 8px;
+
+          .sidebar a{
                position: fixed;
-               bottom: 130px;
                right: 0;
-               top: 50%;
-               background-color: #535766;
-               color: #fff;
-               letter-spacing: 1px;
-               cursor: pointer;
-          }
-          .sidebar-content{
+               top: 60%;
                transform: rotate(-90deg);
+               background-color: #3b5998;
+               color: white;
+               vertical-align: middle;
                text-align: center;
+               font-size: 24px;
+               font-weight: 700;
+               padding: 10px;
+               text-align: center;
+               border-radius: 8px;
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .fa-brands{
+               margin-left: 50px;
           }
           .sidebar .new {
                background-color: #ffcc00;
@@ -418,19 +422,22 @@
 
                </h4>
                <p>
-                    <img src="image.01.png" alt="">
-                    <img src="images/image 02.png" alt="">
+                    <a href=""><img src="images/image.01.png" alt=""></a>
+                    <a href=""><img src="images/image 02.png" alt=""></a>
                </p>
                <p>
                     KEEP IN TOUCH
                </p>
                <p>
-                    <img src="images/image o3.png" alt="">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
                </p>
           </div>
           <div class="footer-2">
                <p>
-                    <img src="images/image 06.png" alt="">
+                    <a href=""><img src="images/image 06.jpg" alt=""></a>
                </p>
           </div>
      </div>
@@ -459,10 +466,12 @@
           <div>
                <p>A Flipkart company</p>
           </div>
-     </div>
+     </div>
      <div class="sidebar">
-          <div class="sidebar-content">FLAT ₹200 OFF</div>
-          <div class="new">NEW</div>
+          <a href="">
+               <div>FLAT ₹200 OFF</div>
+               <div class="new">NEW</div>
+          </a>
      </div>
 </body>
 
